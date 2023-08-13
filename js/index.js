@@ -1,7 +1,7 @@
 var siteName = document.getElementById("siteName");
 var siteLink= document.getElementById("siteLink");
 var tableData = document.getElementById("tableData"); 
-var allbookmarks; // declaration
+var allbookmarks; 
 
 
 if(localStorage.getItem("allbookmarks") !== null){
